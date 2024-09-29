@@ -52,12 +52,12 @@ class MyLocationFragment : Fragment(), OnMapReadyCallback {
     private lateinit var currentLocation: Location;
     private val permissionCode = 101;
 
-
+/*
     //Prueba de ubicación activada
     private lateinit var locationRequest: LocationRequest;
     private lateinit var locationSettingsRequest: LocationSettingsRequest;
     private val REQUEST_CHECK_SETTINGS = 1001
-
+*/
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -68,8 +68,7 @@ class MyLocationFragment : Fragment(), OnMapReadyCallback {
         //Permisos de ubicación
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(requireActivity())
 
-
-
+        /*
         //Elementos para verificar si ubicacion está activada
         // Crear la solicitud de ubicación
         locationRequest = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, 1000)
@@ -80,7 +79,7 @@ class MyLocationFragment : Fragment(), OnMapReadyCallback {
 
         // Verificar configuración de ubicación
         val builder = LocationSettingsRequest.Builder().addLocationRequest(locationRequest)
-        locationSettingsRequest = builder.build()
+        locationSettingsRequest = builder.build() */
 
     }
 
