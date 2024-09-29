@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/my_location"
+        android:id="@+id/mylocation"
+        android:icon="@drawable/ic_mylocation"/>
+    <item
+        android:title="@string/select_location"
+        android:id="@+id/selectlocation"
+        android:icon="@drawable/ic_selectlocation"/>
+    <item
+        android:title="@string/restaurants"
+        android:id="@+id/restaurants"
+        android:icon="@drawable/ic_restaurant"/>
+</menu>
