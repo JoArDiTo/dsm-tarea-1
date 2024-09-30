@@ -26,7 +26,6 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import okhttp3.*
 import okhttp3.MediaType.Companion.toMediaType
-import org.json.JSONObject
 import java.io.IOException
 
 private const val ARG_PARAM1 = "param1"
